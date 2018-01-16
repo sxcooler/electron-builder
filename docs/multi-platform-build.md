@@ -1,6 +1,6 @@
 Don't expect that you can build app for all platforms on one platform.
 
-* If your app has native dependency, it can be compiled only on the target platform unless [prebuild](https://www.npmjs.com/package/prebuild) is not used.
+* If your app has native dependency, it can be compiled only on the target platform unless [prebuild](https://www.npmjs.com/package/prebuild) is used.
 
   [prebuild](https://www.npmjs.com/package/prebuild) is a solution, but most node modules [don't provide](https://github.com/atom/node-keytar/issues/27) prebuilt binaries.
 * macOS Code Signing works only on macOS. [Cannot be fixed](http://stackoverflow.com/a/12156576).
